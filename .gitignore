@@ -1,0 +1,6 @@
+.lightning_studio/
+.env
+.idea/
+.vscode/
+__pycache__
+.bash_history
