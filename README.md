@@ -8,12 +8,13 @@ The finetuned model is also public on HuggingFace as [AnishJoshi/codellama2-fine
 
 ## Table of Contents
 1. [Installation](#installation)
-2. [Usage](#usage)
-3. [Features](#features)
-4. [Contributing](#contributing)
-5. [Acknowledgments](#acknowledgments)
-6. [Contact](#contact)
-7. [TODO](#todo)
+2. [Deployment](#deployment)
+3. [Usage](#usage)
+4. [Features](#features)
+5. [Contributing](#contributing)
+6. [Acknowledgments](#acknowledgments)
+7. [Contact](#contact)
+8. [TODO](#todo)
 
 ## Installation
 ### Prerequisites
@@ -34,6 +35,29 @@ The finetuned model is also public on HuggingFace as [AnishJoshi/codellama2-fine
    ```bash
    ./install.sh
    ```
+
+## Deployment
+
+### Steps
+1. Create an Inference Endpoint on Hugging Face:
+   - goto https://huggingface.co/AnishJoshi/codellama2-finetuned-nl2bash-fin
+     
+   - select deploy and follow on screen instructions
+     
+   - goto https://huggingface.co/microsoft/Phi-3-mini-4k-instruct
+     
+   - select deploy and follow on screen instructions
+     
+2. Store API URL and HF Token in .env File:
+   - Create a .env file in the project root directory.
+     
+   - ```bash
+      llama_api_url="your api url for the deployed finetuned model"
+     
+      hf_token="your hugging face personal access token"
+     
+      phi3_api_url="your api url for the deployed phi-3-mini-4k-instruct model"
+     ```
 
 ## Usage
 To start using the assistant, run:
