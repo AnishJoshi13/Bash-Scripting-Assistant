@@ -43,8 +43,7 @@ streamlit run app/chat_interface.py
 
 
 ## Features
-- **Auto-completion**: Provides context-aware suggestions to complete your commands.
-- **Error-checking**: Identifies common errors in your Bash scripts.
+- **Command+Scripts**: Provides both single line bash commands and complete script codes
 - **Code Explanation**: Explains the generated bash code line by line.
 
 
