@@ -1,4 +1,5 @@
-# Bash Scripting Assistant
+<img width="621" alt="edi1" src="https://github.com/AnishJoshi13/Bash-Scripting-Assistant/assets/97216551/1f6d71ee-8bb0-473a-acf4-fe276039d290">
+
 
 ## Overview
 
