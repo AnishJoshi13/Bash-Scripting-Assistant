@@ -1,4 +1,4 @@
-# Bash Scripting Coding Assistant
+# Bash Scripting Assistant
 
 ## Overview
 
